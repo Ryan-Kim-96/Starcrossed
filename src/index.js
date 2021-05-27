@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 ReactDOM.render(
      <Router>
     <Switch>
-      <Route path="/Capstone" exact component={App}></Route>
+      <Route path="/Starcrossed" exact component={App}></Route>
       <Route path="/bestend" component={BestEnd}></Route>
       <Route path="/badend" component={BadEnd}></Route>
       <Route path="/neutralend" component={NeutralEnd}></Route>

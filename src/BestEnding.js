@@ -33,7 +33,7 @@ Play again to try for a different ending or explore our website for more resourc
          </div>
 
          <div className="ending_escape">
-           <Link to='/Capstone'><Button type="primary">Start Over</Button></Link>
+           <Link to='/Starcrossed'><Button type="primary">Start Over</Button></Link>
            <Link to='/aftergame'><Button style={{marginLeft:"20px"}} type="primary">End Credit</Button></Link>
          </div>
        </div>

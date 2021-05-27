@@ -45,7 +45,7 @@ function Post({ username}) {
     <strong>Click below to play the game Again!</strong></text>
             </div>
             <div className="polaroid" style={{display:"flex", border: "0px", alignItems:"center", justifyContent:"center"}}>
-            <Link to='/Capstone'><Button>Play Again</Button></Link>
+            <Link to='/Starcrossed'><Button>Play Again</Button></Link>
             <Button style={{marginLeft:"20px",width: "150px"}} onClick={()=> window.open("https://starcrossedinfluencer.webflow.io/", "_blank")}>Visit our Website</Button>
             {/* images */}
             </div>
