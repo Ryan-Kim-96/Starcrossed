@@ -1,0 +1,73 @@
+.modal_title{
+    display: inline-block;
+}
+
+.modal_img{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.modal_name{
+    display: inline-block;
+    text-align: center;
+    font-size: 40px;
+    padding-top: 30px;
+    padding-left: 50px;
+    font-weight: 500;
+}
+
+.profile_stats ul{
+    display:flex;
+    margin-left: -20px;
+    font-size: 14px;
+}
+.profile_stats li{
+    display:flex;
+    font-size: 14px;
+    margin-right: 20px;
+
+}
+
+.profile_hobby{
+    display:inline-block;
+    list-style: none;
+}
+
+.profile_hobby ul{
+    padding-top: 20px;
+}
+
+.profile_hobby li{
+    list-style: none;
+    
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.profile_gallery ul{
+    display: flex;
+
+}
+
+.profile_gallery li{
+    display: flex;
+    
+}
+
+.picture_outline{
+    width: 250px;
+    height: 130px;
+    margin-left: 0px;
+    display: block;
+    margin-right: 50px;
+}
+.profile_quote{
+    font-family: cursive;
+    font-size: small;
+}
+
+.profile_tag{
+    font-size: 14px;
+    color: grey;
+}

@@ -1,0 +1,132 @@
+.article{
+    display:flex;
+}
+
+.article_titleblock{
+    display:flex;
+}
+.article_title{
+    margin-right: 40px;
+    font-size: 28px;
+}
+
+.article_authorblock{
+    display: flex;
+    line-height: 1;
+}
+
+.article_author{
+    font-size: 14px;
+    margin-left: 15px;
+    margin-top: 5px;
+    color: grey;
+}
+
+.article_capuletlogo1{
+    width: 120px;
+    margin-top: -30px;
+    margin-right: 10px;
+    margin-bottom: -35px;
+}
+.article_capuletname{
+    margin-right: 40px;
+}
+.article_share{
+    padding: 10px;
+}
+
+.article_sharebutton{
+    padding: 10px;
+}
+.article_hint{
+ display: inline-block;
+ width: 47px;
+ min-width: 47px;
+ height: 47px;
+ border-radius: 180px;
+ background-color: #F4CE45;
+ border-color: black;
+}
+
+.article_glass{
+    width: 40px;
+    margin-left: 5px;
+    margin-top: 6px;
+    background-color: transparent;
+}
+
+.article_glasstwo{
+    width: 40px;
+    margin-left: 5px;
+    margin-top: 6px;
+    background-color: transparent;
+}
+
+.article_glassthree{
+    width: 40px;
+    margin-left: 5px;
+    margin-top: 6px;
+    background-color: transparent;
+}
+
+.article_glassfour{
+    width: 40px;
+    margin-left: 5px;
+    margin-top: 6px;
+    background-color: transparent;
+}
+
+[data-title] {
+	font-size: 18px;
+    font-weight: 500;
+	position: relative;
+    line-height: 1.5;
+	cursor: help;
+}
+
+[data-title]:hover::before {
+	content: attr(data-title);
+	position: absolute;
+	left: 50px;
+    top: 1px;
+	padding: 10px;
+    width: 300px;
+	background: #F4CE45;
+	color: #000;
+	font-size: 14px;
+	white-space: pre-line;
+    border-radius: 10px;
+    z-index: 100;
+}
+.article_glassfive{
+    width: 40px;
+    margin-left: 5px;
+    margin-top: 6px;
+    background-color: transparent;
+}
+.article_hinttwo{
+    display: inline-block;
+    width: 47px;
+     min-width: 47px;
+     height: 47px;
+     margin-top: 60px;
+     border-radius: 180px;
+     background-color: #F4CE45;
+     border-color: black;
+    }
+.article_image{
+    width: 550px;
+}
+
+.article_blockOne{
+    display: flex;
+    margin-top: 10px;
+}
+
+
+.article_advert{
+    margin-left: 20px;
+    width:200px;
+    border: 1px solid black;
+    text-align: center;
+}

@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.App-header{
+  background-color: #fafafa;
+  display:flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  border-bottom: 4px dashed rgb(141, 141, 141);
+}
+
+.App-space{
+  width: 200px
+}
+
+.App_dashboard{
+  font-size: 24px;
+  font-weight: 500;
+  color: rgb(90, 89, 89);
+  cursor: default;
+  border-bottom: 1px solid rgb(194, 194, 194);
+}
+.App_log{
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.App_body{
+  display:flex;
+  flex-direction: row;
+  text-align: center;
+}
+.App_left{
+  flex: 50%;
+  text-align: center;
+  padding: 10px;
+}
+.App_middle{
+  flex: 50%;
+  text-align: center;
+  padding: 10px;
+}
+.App_right{
+  flex: 50%;
+  text-align: center;
+  padding: 10px;
+}

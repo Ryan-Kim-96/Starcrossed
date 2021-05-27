@@ -1,0 +1,228 @@
+
+.tybalt_title{
+    display: flex;
+}
+
+.tybalt_name_box{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.tybalt_articleheaderbox{
+    display: flex;
+    width: 90%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, .5);
+    padding: 15px;
+}
+.tybalt_monteguelogo{
+    display: inline-block;
+    width: 47px;
+    min-width: 47px;
+    height: 47px;
+    border-radius: 180px;
+    background-color: white;
+    border-color: black;
+    margin-left: 15px;
+}
+[data-title] {
+	font-size: 18px;
+    font-weight: 500;
+	position: relative;
+    line-height: 1.5;
+	cursor: help;
+}
+
+[data-title]:hover::before {
+	content: attr(data-title);
+	position: absolute;
+	left: 50px;
+    top: 1px;
+	padding: 10px;
+    width: 300px;
+	background: #F4CE45;
+	color: #000;
+	font-size: 14px;
+	white-space: pre-line;
+    border-radius: 10px;
+    z-index: 100;
+}
+
+.tybalt_articleheader{
+    z-index: 2;
+    color: black;
+    font-weight: 600;
+    background-color: transparent;
+    font-size: 18px;
+    padding: 10px;
+    margin-top: 10px;
+}
+.tybalt_hint{
+    display: inline-block;
+    position: absolute;
+    width: 47px;
+    min-width: 47px;
+    height: 47px;
+    border-radius: 180px;
+    background-color: #F4CE45;
+    border-color: black;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.glass{
+    width: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: transparent;
+}
+
+.glasstwo{
+    width: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: transparent;
+}
+
+.glassthree{
+    width: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: transparent;
+}
+
+.glassfour{
+    width: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: transparent;
+}
+
+.glassfive{
+    width: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: transparent;
+}
+
+.tybalt_hintfour{
+    display: inline-block;
+    position: absolute;
+    width: 47px;
+    min-width: 47px;
+    height: 47px;
+    border-radius: 180px;
+    background-color: #F4CE45;
+    border-color: black;
+    margin-left: 15px;
+    cursor: pointer;
+
+}
+
+.tybalt_hintfive{
+    display: inline-block;
+    position: absolute;
+    width: 47px;
+    min-width: 47px;
+    height: 47px;
+    border-radius: 180px;
+    background-color: #F4CE45;
+    border-color: black;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.tybalt_name{
+    font-size: 25px;
+}
+.tybalt_profile{
+    width: 100px;
+}
+
+.tybalt_link{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.tybalt_captionbox{
+    margin-left: 30px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px lightgrey;
+    border-left: solid 1px lightgrey;
+    border-right: solid 1px lightgrey;
+    border-radius: 0 0 30px 30px;
+}
+.tybalt_caption{
+    font-size: 16px;
+    
+}
+
+.tybalt_buttontext{
+    font-size: 20px;
+}
+
+.tybalt_spacing{
+    width: 10px;
+}
+
+.tybalt_header{
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+.tybalt_label{
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+.tybalt_imagebox{
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 30px;
+}
+.tybalt_image{
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    
+}
+.tybaltsection{
+    margin-top:15px;
+}
+
+.tybalt_tybaltsection{
+    display: flex;
+    
+}
+
+.tybalt_tybaltsection_profile{
+    width: 50px;
+    margin-left: 50px;
+}
+
+.tybalt_tybaltsection_name{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.tybalt_timestamp{
+    font-size: 12px;
+    margin-left: 5px;
+    color: grey;
+}
+.tybalt_write{
+    display: flex;
+    padding-left: 110px;
+    margin-top: -20px;
+    margin-bottom: 25px;
+}
+.link{
+    color: #3DB5F9;
+}
+.subtybalt{
+    margin-left: 75px;
+    border-left: 2px solid grey;
+}
+
+.subofsubtybalt{
+    margin-left: 150px;
+    border-left: 2px solid grey;
+}

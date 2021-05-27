@@ -1,0 +1,222 @@
+
+.benvolio_title{
+    display: flex;
+}
+
+.benvolio_name_box{
+    display: flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.benvolio_articleheaderbox{
+    display: flex;
+    width: 90%;
+    position: absolute;
+    background-color: rgba(255, 255, 255, .5);
+    padding: 15px;
+}
+
+[data-title] {
+	font-size: 18px;
+    font-weight: 500;
+	position: relative;
+    line-height: 1.5;
+	cursor: help;
+}
+
+[data-title]:hover::before {
+	content: attr(data-title);
+	position: absolute;
+	left: 50px;
+    top: 1px;
+	padding: 10px;
+    width: 300px;
+	background: #F4CE45;
+	color: #000;
+	font-size: 14px;
+	white-space: pre-line;
+    border-radius: 10px;
+    z-index: 100;
+}
+
+.benvolio_articleheader{
+    z-index: 2;
+    color: black;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 10px;
+    font-weight: 600;
+}
+.benvolio_hint1{
+    display: inline-block;
+    position: absolute;
+    width: 47px;
+    min-width: 47px;
+    height: 47px;
+    border-radius: 180px;
+    background-color: #F4CE45;
+    border-color: black;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.glass{
+    width: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: transparent;
+}
+
+.glasstwo{
+    width: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: transparent;
+}
+
+.glassthree{
+    width: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: transparent;
+}
+
+.glassfour{
+    width: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: transparent;
+}
+
+.glassfive{
+    width: 40px;
+    margin-left: 5px;
+    margin-top: 5px;
+    background-color: transparent;
+}
+
+.benvolio_hintfour{
+    display: inline-block;
+    position: absolute;
+    width: 47px;
+    min-width: 47px;
+    height: 47px;
+    border-radius: 180px;
+    background-color: #F4CE45;
+    border-color: black;
+    margin-left: 15px;
+    cursor: pointer;
+
+}
+
+.benvolio_hintfive1{
+    display: inline-block;
+    position: absolute;
+    width: 47px;
+    min-width: 47px;
+    height: 47px;
+    border-radius: 180px;
+    background-color: #F4CE45;
+    border-color: black;
+    margin-left: 15px;
+    cursor: pointer;
+}
+.benvolio_name{
+    font-size: 25px;
+}
+.benvolio_profile{
+    width: 100px;
+}
+
+.benvolio_link{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.benvolio_captionbox{
+    margin-left: 30px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    border-bottom: solid 1px lightgrey;
+    border-left: solid 1px lightgrey;
+    border-right: solid 1px lightgrey;
+    border-radius: 0 0 30px 30px;
+}
+.benvolio_caption{
+    font-size: 16px;
+    
+}
+
+.benvolio_buttontext{
+    font-size: 20px;
+}
+
+.benvolio_spacing{
+    width: 10px;
+}
+
+.benvolio_header{
+    font-size: 15px;
+    margin-left: 25px;
+}
+
+.benvolio_label{
+    margin-top: 15px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+.benvolio_imagebox{
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 30px;
+}
+.benvolio_image{
+    object-fit: contain;
+    width: 100%;
+    height: auto;
+    
+}
+.benvoliosection{
+    margin-top:15px;
+}
+
+.benvolio_benvoliosection{
+    display: flex;
+    
+}
+
+.benvolio_benvoliosection_profile{
+    width: 50px;
+    margin-left: 50px;
+}
+
+.benvolio_benvoliosection_name{
+    margin-left: 10px;
+    margin-top: 5px;
+}
+.benvolio_timestamp{
+    font-size: 12px;
+    margin-left: 5px;
+    color: grey;
+}
+.benvolio_write{
+    display: flex;
+    padding-left: 110px;
+    margin-top: -20px;
+    margin-bottom: 25px;
+}
+.link{
+    color: #3DB5F9;
+}
+.subbenvolio{
+    margin-left: 75px;
+    border-left: 2px solid grey;
+}
+
+.subofsubbenvolio{
+    margin-left: 150px;
+    border-left: 2px solid grey;
+}
+
+.footer{
+    height: 300px;
+}

@@ -1,0 +1,93 @@
+
+.share_title{
+    display: flex;
+}
+
+.titleofDashboard{
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.share_user{
+    width: 75px;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+
+.titlename{
+    padding-left: 5px;
+    width: auto;
+    height: 100%;
+}
+
+.my-modal .modal-content {
+    background-color: lightgrey;
+  }
+
+.my-modal .modal-header {
+    background-color: #4267B2;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+    border: white;
+}
+
+.my-modal .modal{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.share_profile{
+    width: 50px;
+}
+
+.share_name_box{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.sharepost_image{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 15px;
+    display: flex;
+    width: 400px;
+    height: 185px;
+}
+.spacing{
+    width: 10px;
+}
+
+.share_buttonbox{
+    display:flex;
+    margin-top: 20px;
+    float: right;
+}
+
+.share_label{
+    margin-top: 10px;
+    margin-left: 0px;
+}
+
+.share_player{
+    display: flex;
+}
+
+.sharebox{
+    display:flex;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 20px;
+    flex-direction: row;
+}
+
+.user_name{
+    margin-top: 8px;
+    width: 100%;
+    margin-left: 20px;
+}
+
+@media (max-width: 1000px) {
+    .sharebox{
+        flex-direction: column;
+    }
+}

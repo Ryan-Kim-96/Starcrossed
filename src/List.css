@@ -1,0 +1,24 @@
+.card-header{
+  background-color: black;
+  color: #fff;
+  
+}
+
+.card{
+  min-width: 300px;
+  max-width: 300px;
+  border-radius: 40px;
+  text-align: center;
+}
+.spacing{
+  height: 45px;
+}
+
+.badgepicture{
+  width: 100px;
+  height: auto;
+}
+
+.background{
+  height: 260px;
+}

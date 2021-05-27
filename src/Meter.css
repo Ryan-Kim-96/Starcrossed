@@ -1,0 +1,44 @@
+.log{
+    display: block;
+    float: right;
+    overflow: auto;
+    background-color: black;
+    width: 260px;
+    height: 233px;
+    margin-top: 45px;
+    border-radius: 10px;
+    left: 50px;
+    background-image: url('vintagepaper.png');
+}
+
+.tape{
+    display: inline-flex;
+    position: absolute;
+    float: right;
+    overflow: auto;
+    right: 90px;
+    margin-top: 30px;
+    width: 80px;
+    height: 25px;
+    background-color: rgba(224, 224, 224, 0.5);
+    border: 1px solid rgba(255,255,255,.7);
+}
+
+.log_title{
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.juliet_noti{
+    display: flex;
+}
+
+.profile_picture{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
